@@ -1,36 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <section id="app">
-        <h1> Apps </h1>
-        <Div class="line"> </Div>
-        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/3EDwzkASbE0zto20j91hmn-wmWbanP27b4dhHo-wfaw/embed"></iframe>
-        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/QCSb-h_h8TODJkcKP-sbFM6U9dEXW8mmPtYlknev68M/embed"></iframe>
+    <!-- Link the sections with ID bio, References and Mywork below-->
+    <ul class="menu">
+        <li class="link"><a href="bio"> About </a> </li>
+        <li class="link"><a href="references"> References </a> </li>
+        <li class="link"> <a href="My work"> My work </a> </li>
+        <li class="link">Inspiration</li>
+        <li class="link">Contact</li>
+    </ul>
+    <section id="welcome">
+        <img src="kid.jpg">
+        <h1>My Favorite hobby is <br><span id="myname">Reading books</span></h1>
+        <h2>I love reading books</h2>
+    </section>
+    <section id="bio">
+        <h1>About</h1>
+        <div class="line"></div>
+        <p class="para">My hobby is reading interesting and knowledgeable books in my free time. Whenever I go to home from my school I like to read such books after completing my home work. I am 12 years old and read in class 7th standard. Now I know very well that reading is very good habit which can make me a complete. This hobby can be developed by anyone however I got this naturally. Reading books keep one always happy and busy. It is the good source of enjoyment, knowledge, inspiration and instruction. It makes us disciplined, loyal, punctual and most importantly a successful person in the life.
+        </p>
+    </section>
+    <section id="References">
+
+        <h1>Here is my Favourite book and reviews on it</h1>
+
+        <div class="line"></div>
+
+
+
+        <!--  Fill in the source of the <iframe> tag below to:  https://freelymagazine.com/2018/02/14/book-review-i-am-mahala/ -->
+        <iframe width="700" height="700" src="https://freelymagazine.com/2018/02/14/book-review-i-am-mahala/"></iframe>
+
+
+
+
+        <div class="jj">
+            <!--  Fill in the href of the <a> tag below to : https://en.wikipedia.org/wiki/Harry_Potter -->
+            <a href="https://en.wikipedia.org/wiki/Harry_Potter" target="_blank">Click here to view my favorite book of all time </a>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="Mywork">
+        <h1>I also love writing short passages</h1>
+
+        <div class="line"></div>
+
+
+        <button class='button'><a href="story.html" target="_blank">Click here to view my story</a></button>
 
     </section>
-    <section id="games">
-        <h1> Games </h1>
-        <Div class="line"> </Div>
-        <a href="https://studio.code.org/projects/dance/lH26SqbnLY-O2WIyQ2oH9jLAv_HjoJRva1GOb7u9TC4" target="_blank"> <img src="thumbnail.png"></a>
-        <a href="https://studio.code.org/projects/spritelab/8fWULZlOPNXMSs2m38z4E3TYaL5mstUABRVS97RsDF0" target="_blank"> <img src="thumbnail%20(1).png">
-            <section id="chatbot">
-                <h1> ChatBot </h1>
-                <Div class="line"> </Div>
-                <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/5e615be8-12af-4003-bcfe-cfec402aa0ae">
-                </iframe>
-            </section>
 
-        </a>
-    </section>
+
 </body>
 
 </html>
